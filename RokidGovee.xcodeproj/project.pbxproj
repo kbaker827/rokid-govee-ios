@@ -1,0 +1,263 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		G0011000 /* RokidGoveeApp.swift in Sources */      = {isa = PBXBuildFile; fileRef = G0010000 /* RokidGoveeApp.swift */; };
+		G0021000 /* GoveeModels.swift in Sources */        = {isa = PBXBuildFile; fileRef = G0020000 /* GoveeModels.swift */; };
+		G0031000 /* GoveeAPIClient.swift in Sources */     = {isa = PBXBuildFile; fileRef = G0030000 /* GoveeAPIClient.swift */; };
+		G0041000 /* GlassesServer.swift in Sources */      = {isa = PBXBuildFile; fileRef = G0040000 /* GlassesServer.swift */; };
+		G0051000 /* GoveeViewModel.swift in Sources */     = {isa = PBXBuildFile; fileRef = G0050000 /* GoveeViewModel.swift */; };
+		G0061000 /* ContentView.swift in Sources */        = {isa = PBXBuildFile; fileRef = G0060000 /* ContentView.swift */; };
+		G0071000 /* DeviceListView.swift in Sources */     = {isa = PBXBuildFile; fileRef = G0070000 /* DeviceListView.swift */; };
+		G0081000 /* DeviceDetailView.swift in Sources */   = {isa = PBXBuildFile; fileRef = G0080000 /* DeviceDetailView.swift */; };
+		G0091000 /* SettingsView.swift in Sources */       = {isa = PBXBuildFile; fileRef = G0090000 /* SettingsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		G0000100 /* RokidGovee.app */     = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RokidGovee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		G0010000 /* RokidGoveeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RokidGoveeApp.swift; sourceTree = "<group>"; };
+		G0010001 /* Info.plist */          = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		G0020000 /* GoveeModels.swift */   = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoveeModels.swift; sourceTree = "<group>"; };
+		G0030000 /* GoveeAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoveeAPIClient.swift; sourceTree = "<group>"; };
+		G0040000 /* GlassesServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassesServer.swift; sourceTree = "<group>"; };
+		G0050000 /* GoveeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoveeViewModel.swift; sourceTree = "<group>"; };
+		G0060000 /* ContentView.swift */   = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		G0070000 /* DeviceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceListView.swift; sourceTree = "<group>"; };
+		G0080000 /* DeviceDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceDetailView.swift; sourceTree = "<group>"; };
+		G0090000 /* SettingsView.swift */  = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		G0000010 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		G0000200 /* Products */ = {
+			isa = PBXGroup;
+			children = (G0000100 /* RokidGovee.app */,);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		G0000300 /* RokidGovee */ = {
+			isa = PBXGroup;
+			children = (
+				G0000400 /* App */,
+				G0000500 /* Data */,
+				G0000600 /* Networking */,
+				G0000700 /* Glasses */,
+				G0000800 /* ViewModel */,
+				G0000900 /* UI */,
+			);
+			path = RokidGovee;
+			sourceTree = "<group>";
+		};
+		G0000400 /* App */ = {
+			isa = PBXGroup;
+			children = (G0010000 /* RokidGoveeApp.swift */, G0010001 /* Info.plist */,);
+			path = App; sourceTree = "<group>";
+		};
+		G0000500 /* Data */ = {
+			isa = PBXGroup;
+			children = (G0020000 /* GoveeModels.swift */,);
+			path = Data; sourceTree = "<group>";
+		};
+		G0000600 /* Networking */ = {
+			isa = PBXGroup;
+			children = (G0030000 /* GoveeAPIClient.swift */,);
+			path = Networking; sourceTree = "<group>";
+		};
+		G0000700 /* Glasses */ = {
+			isa = PBXGroup;
+			children = (G0040000 /* GlassesServer.swift */,);
+			path = Glasses; sourceTree = "<group>";
+		};
+		G0000800 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (G0050000 /* GoveeViewModel.swift */,);
+			path = ViewModel; sourceTree = "<group>";
+		};
+		G0000900 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				G0060000 /* ContentView.swift */,
+				G0070000 /* DeviceListView.swift */,
+				G0080000 /* DeviceDetailView.swift */,
+				G0090000 /* SettingsView.swift */,
+			);
+			path = UI; sourceTree = "<group>";
+		};
+		G0AAAAAA /* root */ = {
+			isa = PBXGroup;
+			children = (G0000300 /* RokidGovee */, G0000200 /* Products */,);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		G0000001 /* RokidGovee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = G0000031;
+			buildPhases = (G0000005 /* Sources */, G0000010 /* Frameworks */, G0000015 /* Resources */,);
+			buildRules = ();
+			dependencies = ();
+			name = RokidGovee;
+			productName = RokidGovee;
+			productReference = G0000100 /* RokidGovee.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		G0000002 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = { G0000001 = { CreatedOnToolsVersion = 15.0; }; };
+			};
+			buildConfigurationList = G0000030;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, Base,);
+			mainGroup = G0AAAAAA;
+			productRefGroup = G0000200;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (G0000001 /* RokidGovee */,);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		G0000015 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		G0000005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				G0011000 /* RokidGoveeApp.swift in Sources */,
+				G0021000 /* GoveeModels.swift in Sources */,
+				G0031000 /* GoveeAPIClient.swift in Sources */,
+				G0041000 /* GlassesServer.swift in Sources */,
+				G0051000 /* GoveeViewModel.swift in Sources */,
+				G0061000 /* ContentView.swift in Sources */,
+				G0071000 /* DeviceListView.swift in Sources */,
+				G0081000 /* DeviceDetailView.swift in Sources */,
+				G0091000 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		G0000020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("DEBUG=1", "$(inherited)",);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		G0000021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		G0000022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = RokidGovee/App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks",);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rokid.govee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		G0000023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = RokidGovee/App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks",);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rokid.govee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		G0000030 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (G0000020 /* Debug */, G0000021 /* Release */,);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		G0000031 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (G0000022 /* Debug */, G0000023 /* Release */,);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = G0000002 /* Project object */;
+}
