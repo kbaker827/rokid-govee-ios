@@ -59,7 +59,7 @@ The only thing left for each app is filling in the three credential constants (`
 
 ### 2. Install the iOS app
 
-Open `RokidGovee.xcodeproj` in Xcode 15+, select your iPhone, and run.
+Open `RokidGovee.xcworkspace` in Xcode 15+ (after running `pod install`) 15+, select your iPhone, and run.
 
 ### 3. Add your API key
 
@@ -149,7 +149,7 @@ The app reads the `capabilities` array from the device list and shows only the c
 | iPhone | iOS 17+, internet access for Govee cloud |
 | Xcode | 15.0+ |
 | Govee account | Free — API key from Govee Home app |
-| Glasses | Rokid AR glasses on same Wi-Fi as iPhone |
+| Glasses | Rokid AI glasses (paired via Bluetooth — no Wi-Fi needed) |
 | CocoaPods | 1.15+ — run `pod install` after cloning |
 
 ---
