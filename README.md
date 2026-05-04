@@ -1,9 +1,15 @@
 # Rokid Govee HUD
 
+
+> **🔵 Connectivity Update — May 2025**
+> The glasses connection has been migrated from **raw TCP sockets** to
+> **Bluetooth via the Rokid AI glasses SDK** (`pod 'RokidSDK' ~> 1.10.2`).
+> No Wi-Fi port forwarding is needed. See **SDK Setup** below.
+
 Control your Govee smart lights from Rokid AR glasses — via your iPhone as a bridge.
 
 ```
-Govee Cloud API  ←→  iPhone App  ──TCP :8103──▶  Rokid Glasses
+Govee Cloud API  ←→  iPhone App  ──Bluetooth/RokidSDK──▶ Rokid Glasses
   (OpenAPI v1)         (this app)                 (display + commands)
    poll + control      relay + UI
 ```
@@ -123,6 +129,7 @@ The app reads the `capabilities` array from the device list and shows only the c
 | Xcode | 15.0+ |
 | Govee account | Free — API key from Govee Home app |
 | Glasses | Rokid AR glasses on same Wi-Fi as iPhone |
+| CocoaPods | 1.15+ — run `pod install` after cloning |
 
 ---
 
